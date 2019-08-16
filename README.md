@@ -1,6 +1,6 @@
 # N3S Toolkit
 ## About
-The goal of this project is to create easy-to-access scripts for use during puzzle hunts. Ideally, these scripts should be easily accessible to people who may not be a fluent in CS or Python. As a result, some scripts are simply wrappers for existing Python functions albeit maybe in a more logical organization or a more readable name. If there's a tradeoff, prioritize speed and ease-of-use over speed of execution.
+The goal of this project is to create easy-to-access scripts for use during puzzle hunts. Ideally, these scripts should be accessible to people who may not be as fluent in CS or Python. As a result, some scripts are simply wrappers for existing Python functions albeit maybe in a more logical organization or a more readable name. If there's a tradeoff, prioritize speed and ease-of-use over speed of execution.
 
 ## Usage
 In a puzzlehunt scenario, open a terminal window or .py file in the toolkit directory and simply import the functions you wish to use. For example, to use the caesar cipher function:
