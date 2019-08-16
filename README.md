@@ -54,7 +54,7 @@ For more information, see the [documentation](https://docs.python.org/3/library/
 * Ciphers
     * Morse code
     * ~~Caesar Ciphers~~
-    * Atbash
+    * ~~Atbash~~
     * Pigpen
     * Semaphores?
 * Image processing
