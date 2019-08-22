@@ -8,7 +8,7 @@
 	* [Universal Anagram Solver](https://anagram-solver.net/)
 	* [Scrabble Word Finder](http://scrabble.merriam.com/)
 	* [Wordplays Anagrammer](https://www.wordplays.com/anagrammer)
-	* Nutrimatic (see above) is also good for this
+	* [Nutrimatic](https://nutrimatic.org/) is also good for this
 	
 ## Codes/Ciphers
 * [Braille, Semaphore, and Pigpen](http://www.mit.edu/~mstang/puzzletools.html)
