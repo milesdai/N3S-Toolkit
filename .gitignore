@@ -1,2 +1,7 @@
 __pycache__/
 .vscode
+*.pyc 
+n3s_toolkit.egg-info/
+dist/
+installed_files.txt
+build
