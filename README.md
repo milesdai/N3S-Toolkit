@@ -3,6 +3,12 @@
 The goal of this project is to create easy-to-access scripts for use during puzzle hunts. Ideally, these scripts should be accessible to people who may not be as fluent in CS or Python. As a result, some scripts are simply wrappers for existing Python functions albeit maybe in a more logical organization or a more readable name. If there's a tradeoff, prioritize speed and ease-of-use over speed of execution.
 
 ## Installation
+Make sure you have Git installed on your computer. Clone the git repo into your home directory to download all the files.
+
+```bash
+git clone https://github.com/milesdai/N3S-Toolkit.git
+```
+
 Run the installation script with Python3:
 ```
 python3 setup.py install --record installed_files.txt
