@@ -4,11 +4,9 @@
     * British English
     * proper nouns
 * String Modification
-    * String filtering (removing auxillary chars)
     * Permutations (i.e. anagrams)
-    * indexing into strings
-    * reversing a string
-    * transpose distance
+    * itertools wrappers
+* Better regex wrappers
 * Ciphers
     * Morse code
     * Pigpen
