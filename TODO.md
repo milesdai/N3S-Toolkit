@@ -11,6 +11,7 @@
     * Morse code
     * Pigpen
     * Semaphores?
+* Roman Numerals
 * Image processing
 * Audio processing
 * Geometry
