@@ -12,13 +12,19 @@ If that doesn't work, make sure you have Python 3 installed and run the command 
 The ```installed_files.txt``` file shows paths to all the installed files. Simply delete these files to uninstall the package. Alternatively, ```pip3``` should be able to find most of the installed files, so you can uninstall with ```pip3 uninstall n3s_toolkit``` if you don't mind leaving a few small files behind.
 
 ## Usage
-To use, simply import the entire  ```n3s_toolkit``` package.
+After installing, you can import the n3s_toolkit package
+```py
+>>> import n3s_toolkit as nt
+>>> nt.ciphers.caesar('abc', 3)
+'def'
+```
+To avoid typing n3 and use the modules directly, import the entire  ```n3s_toolkit``` package.
 ```py
 >>> from n3s_toolkit import *
 >>> ciphers.caesar('abc', 3)
 'def'
 ```
-For better performance and more fine-grained control:
+For more fine-grained control over imports:
 ```py
 >>> from n3s_toolkit import ciphers
 >>> ciphers.caesar('abc', 3)
@@ -28,7 +34,7 @@ For better performance and more fine-grained control:
 ## Contributing
 Check TODO.md for ideas of things to add.
 
-The source code is located inside the n3s_toolkit directory. If you create a new module (i.e. a new .py file) under n3s_toolkit, make sure to add it to ```__init__.py``` to ensure that it gets imported with the ```import *``` operator.
+The source code is located inside the n3s_toolkit directory. If you create a new module (i.e. a new .py file) under n3s_toolkit, make sure to add it to ```__init__.py``` under the ```__all__``` list and the list of imports to ensure that it gets imported with the ```import *``` operator.
 
 ## Testing
 This project uses doctests to run lightweight sanity-check tests on the functions you write. Doctests are placed in the docstrings of each function and are formated like interactive Python sessions. Type the test command after the ```>>>``` and the expected result on the next line. The following example shows how to use doctests for a sample method, square, which returns the square of a number.
