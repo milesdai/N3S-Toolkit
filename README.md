@@ -42,6 +42,8 @@ Check TODO.md for ideas of things to add.
 
 The source code is located inside the n3s_toolkit directory. If you create a new module (i.e. a new .py file) under n3s_toolkit, make sure to add it to ```__init__.py``` under the ```__all__``` list and the list of imports to ensure that it gets imported with the ```import *``` operator.
 
+Feel free to create Github Issues for questions, comments, proposed changes, etc.
+
 ## Testing
 This project uses doctests to run lightweight sanity-check tests on the functions you write. Doctests are placed in the docstrings of each function and are formated like interactive Python sessions. Type the test command after the ```>>>``` and the expected result on the next line. The following example shows how to use doctests for a sample method, square, which returns the square of a number.
 ```python
