@@ -63,6 +63,19 @@ def index_into(string, index):
         raise ValueError('Index {} does not fit into the string {}. Remember that index should be 1-indexed.'.format(index, string))
     return string[index - 1]
 
+def is_palindrome(s):
+    """
+    Returns true if the input (number or string) is a palindrome.
+
+    >>> is_palindrome('abcba')
+    True
+    >>> is_palindrome(1234321)
+    True
+    >>> is_palindrome('ab12')
+    False
+    """
+    return str(s) == str(s)[::-1]
+
 # Reg-Ex
 # https://docs.python.org/3.5/library/re.html
 def re_match(s, pattern):
